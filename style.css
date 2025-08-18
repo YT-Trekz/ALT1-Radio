@@ -1,0 +1,41 @@
+/* Global Styles */
+body {
+    background-image: url('images/runescape-bg.png'); /* Your background image path */
+    background-repeat: repeat; /* Prevents the image from repeating */
+    background-position: center; /* Centers the background image */
+    background-attachment: fixed; /* Keeps the background fixed during scrolling */
+    margin: 0; /* Remove default margin to ensure the image covers the whole area */
+    height: 100vh; /* Ensures the body takes the full viewport height */
+    overflow: auto; /* Hide overflow, preventing the window from scrolling */
+}
+
+h1, h2 {
+    color: #e5e6eb; /* Common color for headers */
+    text-align: center; /* Center align headers */
+}
+
+#app {
+    color: white; /* Text color for the app */
+}
+
+.radio {
+    text-align: center; /* Center align text */
+    color: #e5e6eb; /* Text color for radio buttons */
+
+    font-family: 'Arial', sans-serif; /* Font family for radio buttons */
+    font-size: 16px; /* Font size for radio buttons */
+    margin: 10px 0; /* Margin for spacing */
+}
+
+
+/* muis scroll */
+::-webkit-scrollbar {
+    width: 10px; /* Width of the scrollbar */
+}
+::-webkit-scrollbar-thumb {
+    background: #888; /* Color of the scrollbar thumb */
+    border-radius: 10px; /* Rounded corners for the scrollbar thumb */
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #555; /* Darker color on hover */
+}

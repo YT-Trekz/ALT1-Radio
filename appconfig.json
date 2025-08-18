@@ -1,0 +1,16 @@
+{
+  "appName": "ALT1-LiveMusic",
+  "description": "Trekz - ALT1-LiveMusic tool",
+  "appUrl": "./index.html",
+  "configUrl": "./appconfig.json",
+  "iconUrl": "./images/logo.png",
+  "defaultWidth": 665,
+  "defaultHeight": 603,
+  "minWidth": 250,
+  "minHeight": 250,
+  "maxWidth": 700,
+  "maxHeight": 700,
+  "requestHandlers": [],
+  "activators": [],
+  "permissions": "overlay"
+}
