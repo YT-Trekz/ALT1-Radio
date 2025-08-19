@@ -1,15 +1,15 @@
 /* Global Styles */
 body {
-    background-image: url('images/runescape-bg.png'); /* Your background image path */
-    background-repeat: repeat; /* Prevents the image from repeating */
-    background-position: center; /* Centers the background image */
-    background-attachment: fixed; /* Keeps the background fixed during scrolling */
-    margin: 0; /* Remove default margin to ensure the image covers the whole area */
-    height: 100vh; /* Ensures the body takes the full viewport height */
-    overflow: auto; /* Hide overflow, preventing the window from scrolling */
+    background-image: url('images/runescape-bg.png'); 
+    background-repeat: repeat;  
+    background-position: center; 
+    background-attachment: fixed;
+    margin: 0; 
+    height: 100vh; 
+    overflow: auto;
 }
 
-h1, h2 {
+h1, h2, h3, h4, h5, h6 {
     color: #e5e6eb; /* Common color for headers */
     text-align: center; /* Center align headers */
 }
@@ -31,11 +31,15 @@ h1, h2 {
 /* muis scroll */
 ::-webkit-scrollbar {
     width: 10px; /* Width of the scrollbar */
+    background-color: #000000; /* Background color of the scrollbar */
 }
 ::-webkit-scrollbar-thumb {
-    background: #888; /* Color of the scrollbar thumb */
-    border-radius: 10px; /* Rounded corners for the scrollbar thumb */
+    background-color: #3b3b3b; /* Color of the scrollbar thumb */
+    border-radius: 5px; /* Rounded corners for the scrollbar thumb */
+
+    border: 2px solid #000000; /* Border around the scrollbar thumb */
+
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.5); /* Inner shadow for depth */
 }
-::-webkit-scrollbar-thumb:hover {
-    background: #555; /* Darker color on hover */
-}
+
+
