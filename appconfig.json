@@ -1,6 +1,6 @@
 {
-  "appName": "ALT1-LiveMusic",
-  "description": "Trekz - ALT1-LiveMusic tool",
+  "appName": "ALT1-Radio",
+  "description": "ALT1-Radio tool Made by L-Scripts",
   "appUrl": "./index.html",
   "configUrl": "./appconfig.json",
   "iconUrl": "./images/logo.png",
