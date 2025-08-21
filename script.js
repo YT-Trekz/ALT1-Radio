@@ -1,4 +1,3 @@
-
 const players = document.querySelectorAll("audio");
 
 // Voor elk audio-element een eventlistener
