@@ -9,22 +9,35 @@ body {
     overflow: auto;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    color: #e5e6eb; /* Common color for headers */
+h1 {
+    color: #ffa600fd; /* Color for h1 header */
+    text-align: center; /* Center align h1 header */
+    font-family: 'Arial', sans-serif; /* Font family for h1 header */
+    margin: 20px 0; /* Margin for spacing */
+    font-size: 36px; /* Font size for h1 header */
+    text-shadow: 2px 2px 4px #000000; /* Text shadow for better visibility */
+}
+
+h2, h3, h4, h5, h6 {
+    color: #ffd90086; /* Common color for headers */
     text-align: center; /* Center align headers */
+    font-family: 'Arial', sans-serif; /* Font family for headers */
+    margin: 10px 0; /* Margin for spacing */
 }
 
 #app {
     color: white; /* Text color for the app */
+    text-align: center; /* Center align text */
+    font-family: 'Arial', sans-serif; /* Font family for the app */
+    padding: 20px; /* Padding around the app */
+    max-width: 800px; /* Maximum width for the app */
+    margin: 0 auto; /* Center the app horizontally */
 }
 
 .radio {
     text-align: center; /* Center align text */
     color: #e5e6eb; /* Text color for radio buttons */
-
     font-family: 'Arial', sans-serif; /* Font family for radio buttons */
-    font-size: 16px; /* Font size for radio buttons */
-    margin: 10px 0; /* Margin for spacing */
 }
 
 
@@ -34,12 +47,16 @@ h1, h2, h3, h4, h5, h6 {
     background-color: #000000; /* Background color of the scrollbar */
 }
 ::-webkit-scrollbar-thumb {
-    background-color: #3b3b3b; /* Color of the scrollbar thumb */
+    background-color: #ffd90086; /* Color of the scrollbar thumb */
     border-radius: 5px; /* Rounded corners for the scrollbar thumb */
-
     border: 2px solid #000000; /* Border around the scrollbar thumb */
-
     box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.5); /* Inner shadow for depth */
 }
-
-
+::-webkit-scrollbar-thumb:hover {
+    background-color: #ffd900; /* Color of the scrollbar thumb on hover */
+}
+::-webkit-scrollbar-track {
+    background-color: #1a1a1a; /* Background color of the scrollbar track */
+    border-radius: 5px; /* Rounded corners for the scrollbar track */
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.3); /* Inner shadow for depth */
+}
