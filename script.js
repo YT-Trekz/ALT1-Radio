@@ -1,6 +1,3 @@
-import * as A1 from 'alt1/base';
-A1.identifyApp('appconfig.json');
-
 const players = document.querySelectorAll("audio");
 
 players.forEach(player => {
@@ -24,3 +21,6 @@ players.forEach(player => {
     player.dataset.refreshed = "";
   });
 });
+
+import * as A1 from 'alt1/base';
+A1.identifyApp('appconfig.json');
